@@ -1,0 +1,58 @@
+* 
+{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Involve'; 
+    src:
+    url('fonts/Involve.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: involve, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-top, .img-bottom {
+    width: 100%;
+    background-color: #0097a7;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.img-top img, .img-bottom img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-wrapper {
+    display: table;
+    width: 100%;
+}
+
+.text-left, .text-right {
+    display: table-cell;
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    vertical-align: top;
+}
+
+.text-left {
+    background-color: #7e57c2;
+}
+
+.text-right {
+    background-color: #b3e5fc;
+    color: #000;
+}
