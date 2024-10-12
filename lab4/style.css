@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.highlight {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.alt-highlight {
+    background-color: lightgreen;
+    color: darkgreen;
+}
